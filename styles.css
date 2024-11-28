@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: roboto;
+    flex: 1;
 }
 
 .menu {
