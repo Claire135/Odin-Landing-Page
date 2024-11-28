@@ -41,8 +41,8 @@ ul{
     background-color: #1F2937;
     justify-content: space-between;
     align-content: center;
-    flex: 1;
     min-height: 350px;
+    gap: 60px;
 }
 
 .header-text{
@@ -70,7 +70,7 @@ h1{
     padding: 0px;
 }
 
-button{
+.button1{
     background: #3882F6;
     color:#F9FaF8;
     padding: 15px 30px;
@@ -142,5 +142,57 @@ h2 {
     font-weight: 800;
     font-size: 26px;
     margin-top: 20px;
-
   }
+  
+  .call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 150px;
+  }
+
+  .action-outline {
+    display: flex;
+    background: #3882F6;
+    padding: 35px 90px;
+    justify-content: space-between;
+    align-items: center;
+    gap:80px;
+    border-radius: 10px;
+  }
+
+  .action-textbox {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .action-maintext {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+ .button2 {
+    background: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FaF8;
+    padding: 15px 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+ }
+
+
+  .footer{
+    display: flex;
+    color: #F9FAF8;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 30px;
+  }
+
